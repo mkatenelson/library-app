@@ -7,4 +7,6 @@ Rails.application.routes.draw do
 
   post "/users", to: create "users#create"
 
+  get "/users/:id", to: "users#show"
+
 end
